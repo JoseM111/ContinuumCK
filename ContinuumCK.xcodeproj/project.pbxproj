@@ -7,23 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EEA70C8AE635D9B1D6B7400 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA7EF22DCF4F64B49AC9BD /* Extensions.swift */; };
+		9EEA71A68A9AD4B498C53C8B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA7872E41AAA5D07E890F2 /* Post.swift */; };
+		9EEA772B03A673F0F60107DC /* PostModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA79D34D15F21BC839712E /* PostModelController.swift */; };
+		9EEA77561791D632CBA349CE /* PostKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA79838BF64651A93BE5E8 /* PostKeys.swift */; };
+		9EEA7A4671DA85DA1668C685 /* CommentKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA7CBFAFFBD4B5703986EC /* CommentKeys.swift */; };
+		9EEA7DBC783BDB93628CC396 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA7BE35333C0177B87838C /* Comment.swift */; };
 		AB40626C246B4608008632E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB40626B246B4608008632E4 /* AppDelegate.swift */; };
 		AB40626E246B4608008632E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB40626D246B4608008632E4 /* SceneDelegate.swift */; };
-		AB406270246B4608008632E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB40626F246B4608008632E4 /* ViewController.swift */; };
 		AB406273246B4608008632E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB406271246B4608008632E4 /* Main.storyboard */; };
 		AB406275246B4609008632E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB406274246B4609008632E4 /* Assets.xcassets */; };
 		AB406278246B4609008632E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB406276246B4609008632E4 /* LaunchScreen.storyboard */; };
+		AB406282246B4630008632E4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB406281246B4630008632E4 /* CloudKit.framework */; };
+		AB40628C246B4842008632E4 /* PostError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB40628B246B4842008632E4 /* PostError.swift */; };
+		AB40628E246B4885008632E4 /* MyTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB40628D246B4885008632E4 /* MyTools.swift */; };
+		AB96473B246D50E1002D72EE /* PostDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96473A246D50E1002D72EE /* PostDetailTableViewController.swift */; };
+		AB98ABF3246C9E5600341BB5 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB98ABF2246C9E5600341BB5 /* PostListTableViewController.swift */; };
+		AB98ABF6246C9FEA00341BB5 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB98ABF5246C9FEA00341BB5 /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9EEA7872E41AAA5D07E890F2 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		9EEA79838BF64651A93BE5E8 /* PostKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostKeys.swift; sourceTree = "<group>"; };
+		9EEA79D34D15F21BC839712E /* PostModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModelController.swift; sourceTree = "<group>"; };
+		9EEA7BE35333C0177B87838C /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		9EEA7CBFAFFBD4B5703986EC /* CommentKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentKeys.swift; sourceTree = "<group>"; };
+		9EEA7EF22DCF4F64B49AC9BD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AB406268246B4608008632E4 /* ContinuumCK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContinuumCK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB40626B246B4608008632E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB40626D246B4608008632E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB40626F246B4608008632E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB406272246B4608008632E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB406274246B4609008632E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB406277246B4609008632E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB406279246B4609008632E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB40627F246B462A008632E4 /* ContinuumCK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContinuumCK.entitlements; sourceTree = "<group>"; };
+		AB406281246B4630008632E4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		AB40628B246B4842008632E4 /* PostError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostError.swift; sourceTree = "<group>"; };
+		AB40628D246B4885008632E4 /* MyTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTools.swift; sourceTree = "<group>"; };
+		AB96473A246D50E1002D72EE /* PostDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewController.swift; sourceTree = "<group>"; };
+		AB98ABF2246C9E5600341BB5 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
+		AB98ABF5246C9FEA00341BB5 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB406282246B4630008632E4 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9EEA7EA70BAAEE785D177D60 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9EEA7EF22DCF4F64B49AC9BD /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		AB40625F246B4608008632E4 = {
 			isa = PBXGroup;
 			children = (
 				AB40626A246B4608008632E4 /* ContinuumCK */,
 				AB406269246B4608008632E4 /* Products */,
+				AB406280246B4630008632E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +89,106 @@
 		AB40626A246B4608008632E4 /* ContinuumCK */ = {
 			isa = PBXGroup;
 			children = (
+				AB40627F246B462A008632E4 /* ContinuumCK.entitlements */,
+				AB406289246B4717008632E4 /* Models */,
+				AB406286246B46D1008632E4 /* View */,
+				AB406283246B46B5008632E4 /* Controllers */,
+				AB406288246B4700008632E4 /* Res */,
+				AB40628A246B4827008632E4 /* MyTools */,
+			);
+			path = ContinuumCK;
+			sourceTree = "<group>";
+		};
+		AB406280246B4630008632E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB406281246B4630008632E4 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB406283246B46B5008632E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB406285246B46C8008632E4 /* VewControllers */,
+				AB406284246B46BC008632E4 /* ModelControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AB406284246B46BC008632E4 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9EEA79D34D15F21BC839712E /* PostModelController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		AB406285246B46C8008632E4 /* VewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB98ABF2246C9E5600341BB5 /* PostListTableViewController.swift */,
+				AB96473A246D50E1002D72EE /* PostDetailTableViewController.swift */,
+			);
+			path = VewControllers;
+			sourceTree = "<group>";
+		};
+		AB406286246B46D1008632E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB98ABF4246C9FD200341BB5 /* CustomView */,
+				AB406287246B46D6008632E4 /* StoryBoard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB406287246B46D6008632E4 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AB406271246B4608008632E4 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		AB406288246B4700008632E4 /* Res */ = {
+			isa = PBXGroup;
+			children = (
 				AB40626B246B4608008632E4 /* AppDelegate.swift */,
 				AB40626D246B4608008632E4 /* SceneDelegate.swift */,
-				AB40626F246B4608008632E4 /* ViewController.swift */,
-				AB406271246B4608008632E4 /* Main.storyboard */,
 				AB406274246B4609008632E4 /* Assets.xcassets */,
 				AB406276246B4609008632E4 /* LaunchScreen.storyboard */,
 				AB406279246B4609008632E4 /* Info.plist */,
 			);
-			path = ContinuumCK;
+			path = Res;
+			sourceTree = "<group>";
+		};
+		AB406289246B4717008632E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9EEA7872E41AAA5D07E890F2 /* Post.swift */,
+				9EEA7BE35333C0177B87838C /* Comment.swift */,
+				9EEA7EA70BAAEE785D177D60 /* Extensions */,
+				9EEA79838BF64651A93BE5E8 /* PostKeys.swift */,
+				9EEA7CBFAFFBD4B5703986EC /* CommentKeys.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB40628A246B4827008632E4 /* MyTools */ = {
+			isa = PBXGroup;
+			children = (
+				AB40628B246B4842008632E4 /* PostError.swift */,
+				AB40628D246B4885008632E4 /* MyTools.swift */,
+			);
+			path = MyTools;
+			sourceTree = "<group>";
+		};
+		AB98ABF4246C9FD200341BB5 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				AB98ABF5246C9FEA00341BB5 /* PostTableViewCell.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +262,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB406270246B4608008632E4 /* ViewController.swift in Sources */,
+				AB98ABF3246C9E5600341BB5 /* PostListTableViewController.swift in Sources */,
 				AB40626C246B4608008632E4 /* AppDelegate.swift in Sources */,
+				AB96473B246D50E1002D72EE /* PostDetailTableViewController.swift in Sources */,
+				AB40628C246B4842008632E4 /* PostError.swift in Sources */,
 				AB40626E246B4608008632E4 /* SceneDelegate.swift in Sources */,
+				AB40628E246B4885008632E4 /* MyTools.swift in Sources */,
+				9EEA71A68A9AD4B498C53C8B /* Post.swift in Sources */,
+				9EEA7DBC783BDB93628CC396 /* Comment.swift in Sources */,
+				AB98ABF6246C9FEA00341BB5 /* PostTableViewCell.swift in Sources */,
+				9EEA772B03A673F0F60107DC /* PostModelController.swift in Sources */,
+				9EEA70C8AE635D9B1D6B7400 /* Extensions.swift in Sources */,
+				9EEA77561791D632CBA349CE /* PostKeys.swift in Sources */,
+				9EEA7A4671DA85DA1668C685 /* CommentKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,9 +418,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ContinuumCK/ContinuumCK.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8R94WS9HFC;
-				INFOPLIST_FILE = ContinuumCK/Info.plist;
+				INFOPLIST_FILE = ContinuumCK/Res/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +437,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ContinuumCK/ContinuumCK.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8R94WS9HFC;
-				INFOPLIST_FILE = ContinuumCK/Info.plist;
+				INFOPLIST_FILE = ContinuumCK/Res/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
